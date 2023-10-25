@@ -1,8 +1,35 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-a {
-  color: #00B7FF;
+div {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    url(https://ik.imagekit.io/nashq6w6f/Image_20231025_182522.png?updatedAt=1698238600081);
+  background-color: rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: bottom;
+}
+
+div > div {
+  height: 100px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #f9d606;
+}
+
+div > div:last-child {
+  display: flex;
+  justify-content: center;
+  padding-top: 130px;
+}
+
+img {
+  border-radius: 20%;
 }
