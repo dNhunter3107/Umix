@@ -28,11 +28,16 @@ html(lang="en")
       div(style="height: 100px;padding: 20px 40px;display: flex;justify-content: space-between; align-items: center;")
         img(height="90px", width="90px", src="https://ik.imagekit.io/nashq6w6f/Image_20231025_185159.png?updatedAt=1698240173921", alt="")
         h1(style="color: #f9d606") Team 5
-      div(style="display: flex; justify-content: center; padding-top: 130px")
-        img( style = "border-radius: 20%" height = "300px" width="300px", src=imageUrl, alt="")
-        div
-          p(style = "color: #f9d606") #{urlRedirect} - 
-        div
+      div(style="display: flex; justify-content: center;")
+        div(style = 'display: flex; flex-direction: column;align-items: center;justify-content: space-between;')
+          div(class="congrats" style='')
+            h1(style = "margin: 0; color: beige; font-size: 25px;font-family: 'Sigmar One', cursive; top: 0;text-align: center;width: 100%;") Congratulations! 
+            br
+            h1(style = "margin: 0;color: beige; font-size: 25px;font-family: 'Sigmar One', cursive; top: 0;text-align: center;width: 100%;") You are : #{type}
+
+          img( style = "border-radius: 20%" height = "300px" width="300px", src=imageUrl, alt="")
+          a(style = "background-color:#c9961c; border-radius: 5px; border: none;color: white;padding: 10px 15px;text-align: center; text-decoration: none;display: inline-block; font-size: 20px; margin: 4px 2px;cursor: pointer;", target = 'blank')(href =urlRedirect) &nbsp Open to See your prize
+        //- div
+          //- p(style = "color: #f9d606") #{urlRedirect} - 
           //- p #{urlRedirect}
-          a(style = "color: #f9d606; text-decoration: none", target = 'blank')(href ='/'+ urlRedirect) &nbsp Open to get prize
 

@@ -1,0 +1,46 @@
+[
+    {
+        "url": "https://www.example.com",
+        "is_valid": true
+    },
+    {
+        "url": "https://www.google.com",
+        "is_valid": true
+    },
+    {
+        "url": "https://www.github.com",
+        "is_valid": true
+    },
+    {
+        "url": "https://www.microsoft.com",
+        "is_valid": true
+    },
+    {
+        "url": "https://www.apple.com",
+        "is_valid": true
+    },
+    {
+        "url": "https://www.amazon.com",
+        "is_valid": true
+    },
+    {
+        "url": "https://www.facebook.com",
+        "is_valid": true
+    },
+    {
+        "url": "https://www.twitter.com",
+        "is_valid": true
+    },
+    {
+        "url": "https://www.linkedin.com",
+        "is_valid": true
+    },
+    {
+        "url": "https://www.instagram.com",
+        "is_valid": true
+    },
+    {
+        "url": "https://www.reddit.com",
+        "is_valid": true
+    }
+]
